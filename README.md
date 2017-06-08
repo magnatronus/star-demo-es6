@@ -4,6 +4,7 @@
 <tr>
   <td><img src="https://github.com/magnatronus/star-demo-es6/blob/master/images/sim001.png" width="200"></td>
   <td><img src="https://github.com/magnatronus/star-demo-es6/blob/master/images/sim002.png" width="200"></td>
+  <td><img src="https://github.com/magnatronus/star-demo-es6/blob/master/images/sim003.png" width="200"></td>
   <td><img src="https://github.com/magnatronus/star-demo-es6/blob/master/images/sim005.png" width="200"></td>
 </tr>
 </table>
