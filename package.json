@@ -1,0 +1,31 @@
+{
+  "name": "SpiralArm",
+  "version": "1.0.0",
+  "description": "A Demo Project using Babel and ES6 to generate a Titanium project",
+  "scripts": {
+    "clean_old": "rm -rf ./Resources && mkdir ./Resources",
+    "clean": "rm  ./Resources/*",
+    "build-app": "babel -d ./Resources ./src -s   --ignore '/system/underscore.js'",
+    "copy-assets": "cp -rf ./src/assets/. ./Resources",
+    "build": "npm run build-app && npm run copy-assets",
+    "start": "ti build -p ios  --device-id  --log-level info",
+    "test": "npm run build-app && node ./Resources/test.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-2"
+    ],
+    "ignore": [
+      "/system/underscore.js"
+    ]
+  },
+  "keywords": [],
+  "author": "SpiralArm Consulting Ltd",
+  "license": "ISC"
+}
