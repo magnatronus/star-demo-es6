@@ -1,6 +1,6 @@
 # star-demo-es6
 
-![screen shot](https://github.com/magnatronus/star-demo-es6/blob/master/images/sim001.png)
+<img src="https://github.com/magnatronus/star-demo-es6/blob/master/images/sim001.png" width="200">
 
 ## Introduction
 This is a test/demo Titanium project designed to run on iOS and Android and based on the free Star Wars API (SWAPI). The App is written in Titanium using ES6, Promises and a custom framework I have called Erbium.
