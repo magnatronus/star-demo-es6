@@ -1,7 +1,12 @@
 # star-demo-es6
 
-<img src="https://github.com/magnatronus/star-demo-es6/blob/master/images/sim001.png" width="200">
-<img src="https://github.com/magnatronus/star-demo-es6/blob/master/images/sim002.png" width="200">
+<table>
+<tr>
+  <td><img src="https://github.com/magnatronus/star-demo-es6/blob/master/images/sim001.png" width="200"></td>
+  <td><img src="https://github.com/magnatronus/star-demo-es6/blob/master/images/sim002.png" width="200"></td>
+  <td><img src="https://github.com/magnatronus/star-demo-es6/blob/master/images/sim005.png" width="200"></td>
+</tr>
+</table>
 
 ## Introduction
 This is a test/demo Titanium project designed to run on iOS and Android and based on the free Star Wars API (SWAPI). The App is written in Titanium using ES6, Promises and a custom framework I have called Erbium.
@@ -34,4 +39,3 @@ I did have a version that attempted to use the React.createElement and the JSX p
 
 ## App availablility
 I am currently going to try and release a version of the app into iTunes and the Google play store....
-<img src="https://github.com/magnatronus/star-demo-es6/blob/master/images/sim004.png" width="200">
