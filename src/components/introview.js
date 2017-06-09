@@ -1,5 +1,5 @@
 // Intro View
-import { Component, Globals } from '/system/erbium';
+import Erbium, { Component, Globals } from '/system/erbium';
 import Events from '/libs/events';
 import OptionsList from '/components/optionslist';
 import DemoData from '/assets/demodata.js';
@@ -7,6 +7,9 @@ import DemoData from '/assets/demodata.js';
 
 class IntroView extends Component{
 
+  beforeView() {
+    this.scrollTime = 12000;
+  }
 
   generateView(){
 
@@ -44,7 +47,7 @@ class IntroView extends Component{
     const that = this;
     this.info.animate({
       bottom:200,
-      duration:8000,
+      duration:this.scrollTime,
       curve:Ti.UI.ANIMATION_CURVE_EASE_IN_OUT
     }, () => {
       that.button.visible = true;
@@ -76,7 +79,7 @@ const styles = {
   },
 
   infoLabel: {
-    text: DemoData.intro,
+    text: (Erbium.isAndroid)?DemoData.introAndroid:DemoData.introIOS,
     bottom: -300,
     width: Ti.UI.FILL,
     height: 400,

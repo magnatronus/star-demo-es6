@@ -3,7 +3,7 @@ import Promise from '/system/promises.core.min';
 
 class SWAPI {
 
-  constructor(baseURL="http://swapi.co/api") {
+  constructor(baseURL="https://swapi.co/api") {
       this.baseURL = baseURL;
   }
 
