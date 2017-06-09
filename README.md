@@ -40,3 +40,5 @@ I did have a version that attempted to use the React.createElement and the JSX p
 
 ## App availablility
 I am currently going to try and release a version of the app into iTunes and the Google play store....
+
+* [Google PlayStore Link](https://play.google.com/store/apps/details?id=uk.spiralarm.spiralarm)
