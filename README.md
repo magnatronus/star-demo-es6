@@ -39,6 +39,7 @@ Because it's fun, I like a challenge and I get to learn an great deal about usin
 I did have a version that attempted to use the React.createElement and the JSX plug-in ( I think it kinda neat the way you can use JSX to define UI). I did have some success, but it got a bit complicated so I parked it as I think it requires a JSX for Titanium developing to really work. Hence in my Component class I have a generateView() function that sort of replaces the render() function in React (but not quite).
 
 ## App availablility
-I am currently going to try and release a version of the app into iTunes and the Google play store....
+The demo app can be also be downloaded from:
 
 * [Google PlayStore Link](https://play.google.com/store/apps/details?id=uk.spiralarm.spiralarm)
+* [iTunes](https://itunes.apple.com/us/app/spiralarm/id1246261390?ls=1&mt=8)
